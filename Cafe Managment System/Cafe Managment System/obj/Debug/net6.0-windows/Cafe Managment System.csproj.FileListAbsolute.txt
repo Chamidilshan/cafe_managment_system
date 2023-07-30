@@ -1,0 +1,18 @@
+D:\.Net Projects\cafe_managment_system\Cafe Managment System\Cafe Managment System\bin\Debug\net6.0-windows\Cafe Managment System.exe
+D:\.Net Projects\cafe_managment_system\Cafe Managment System\Cafe Managment System\bin\Debug\net6.0-windows\Cafe Managment System.deps.json
+D:\.Net Projects\cafe_managment_system\Cafe Managment System\Cafe Managment System\bin\Debug\net6.0-windows\Cafe Managment System.runtimeconfig.json
+D:\.Net Projects\cafe_managment_system\Cafe Managment System\Cafe Managment System\bin\Debug\net6.0-windows\Cafe Managment System.dll
+D:\.Net Projects\cafe_managment_system\Cafe Managment System\Cafe Managment System\bin\Debug\net6.0-windows\Cafe Managment System.pdb
+D:\.Net Projects\cafe_managment_system\Cafe Managment System\Cafe Managment System\obj\Debug\net6.0-windows\Cafe Managment System.csproj.AssemblyReference.cache
+D:\.Net Projects\cafe_managment_system\Cafe Managment System\Cafe Managment System\obj\Debug\net6.0-windows\Cafe_Managment_System.Form1.resources
+D:\.Net Projects\cafe_managment_system\Cafe Managment System\Cafe Managment System\obj\Debug\net6.0-windows\Cafe_Managment_System.Properties.Resources.resources
+D:\.Net Projects\cafe_managment_system\Cafe Managment System\Cafe Managment System\obj\Debug\net6.0-windows\Cafe Managment System.csproj.GenerateResource.cache
+D:\.Net Projects\cafe_managment_system\Cafe Managment System\Cafe Managment System\obj\Debug\net6.0-windows\Cafe Managment System.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net Projects\cafe_managment_system\Cafe Managment System\Cafe Managment System\obj\Debug\net6.0-windows\Cafe Managment System.AssemblyInfoInputs.cache
+D:\.Net Projects\cafe_managment_system\Cafe Managment System\Cafe Managment System\obj\Debug\net6.0-windows\Cafe Managment System.AssemblyInfo.cs
+D:\.Net Projects\cafe_managment_system\Cafe Managment System\Cafe Managment System\obj\Debug\net6.0-windows\Cafe Managment System.csproj.CoreCompileInputs.cache
+D:\.Net Projects\cafe_managment_system\Cafe Managment System\Cafe Managment System\obj\Debug\net6.0-windows\Cafe Managment System.dll
+D:\.Net Projects\cafe_managment_system\Cafe Managment System\Cafe Managment System\obj\Debug\net6.0-windows\refint\Cafe Managment System.dll
+D:\.Net Projects\cafe_managment_system\Cafe Managment System\Cafe Managment System\obj\Debug\net6.0-windows\Cafe Managment System.pdb
+D:\.Net Projects\cafe_managment_system\Cafe Managment System\Cafe Managment System\obj\Debug\net6.0-windows\Cafe Managment System.genruntimeconfig.cache
+D:\.Net Projects\cafe_managment_system\Cafe Managment System\Cafe Managment System\obj\Debug\net6.0-windows\ref\Cafe Managment System.dll
