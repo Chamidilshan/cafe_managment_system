@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Z+yADOLXvu/ctTU4f6vdbjUqIy0riINULAv9jaUpHg5GnECc/nBSJCm3Oaa7fJ9q1HaDdcRhlrTllLI/lbx4fA==",
+  "dgSpecHash": "ReP1XX3c9Bxphs3E06fLWwzDyp0dmY74cQrlmp8BKeJdSMNTXgWUZlC1qQksSpqo+8yef9i0iWjC1wMhL7vztA==",
   "success": true,
   "projectFilePath": "D:\\.Net Projects\\cafe_managment_system\\Cafe Managment System\\Cafe Managment System\\Cafe Managment System.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Dell\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.4\\guna.ui2.winforms.2.0.4.4.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\system.management\\6.0.0\\system.management.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

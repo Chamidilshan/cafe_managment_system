@@ -32,10 +32,10 @@
             pictureBox1 = new PictureBox();
             label1 = new Label();
             label2 = new Label();
-            button1 = new Button();
-            linkLabel1 = new LinkLabel();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            btnLogin = new Button();
+            btnGeust = new LinkLabel();
+            txtUserName = new TextBox();
+            txtPassword = new TextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -72,43 +72,44 @@
             label2.TabIndex = 4;
             label2.Text = "Password";
             // 
-            // button1
+            // btnLogin
             // 
-            button1.BackColor = Color.FromArgb(0, 118, 221);
-            button1.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button1.Location = new Point(123, 405);
-            button1.Name = "button1";
-            button1.Size = new Size(102, 31);
-            button1.TabIndex = 6;
-            button1.Text = "Login";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            btnLogin.BackColor = Color.FromArgb(0, 118, 221);
+            btnLogin.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            btnLogin.Location = new Point(123, 405);
+            btnLogin.Name = "btnLogin";
+            btnLogin.Size = new Size(102, 31);
+            btnLogin.TabIndex = 6;
+            btnLogin.Text = "Login";
+            btnLogin.UseVisualStyleBackColor = false;
+            btnLogin.Click += button1_Click;
             // 
-            // linkLabel1
+            // btnGeust
             // 
-            linkLabel1.AutoSize = true;
-            linkLabel1.Font = new Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
-            linkLabel1.LinkColor = Color.FromArgb(0, 192, 0);
-            linkLabel1.Location = new Point(114, 466);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(123, 17);
-            linkLabel1.TabIndex = 7;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "Continue as a guest";
+            btnGeust.AutoSize = true;
+            btnGeust.Font = new Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
+            btnGeust.LinkColor = Color.FromArgb(0, 192, 0);
+            btnGeust.Location = new Point(114, 466);
+            btnGeust.Name = "btnGeust";
+            btnGeust.Size = new Size(123, 17);
+            btnGeust.TabIndex = 7;
+            btnGeust.TabStop = true;
+            btnGeust.Text = "Continue as a guest";
+            btnGeust.LinkClicked += btnGeust_LinkClicked;
             // 
-            // textBox1
+            // txtUserName
             // 
-            textBox1.Location = new Point(85, 285);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(188, 27);
-            textBox1.TabIndex = 8;
+            txtUserName.Location = new Point(85, 285);
+            txtUserName.Name = "txtUserName";
+            txtUserName.Size = new Size(188, 27);
+            txtUserName.TabIndex = 8;
             // 
-            // textBox2
+            // txtPassword
             // 
-            textBox2.Location = new Point(85, 356);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(188, 27);
-            textBox2.TabIndex = 9;
+            txtPassword.Location = new Point(85, 356);
+            txtPassword.Name = "txtPassword";
+            txtPassword.Size = new Size(188, 27);
+            txtPassword.TabIndex = 9;
             // 
             // Form1
             // 
@@ -116,17 +117,17 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(41, 44, 51);
             ClientSize = new Size(373, 540);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(linkLabel1);
-            Controls.Add(button1);
+            Controls.Add(txtPassword);
+            Controls.Add(txtUserName);
+            Controls.Add(btnGeust);
+            Controls.Add(btnLogin);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Form1";
+            Text = "Login";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
@@ -138,9 +139,9 @@
         private PictureBox pictureBox1;
         private Label label1;
         private Label label2;
-        private Button button1;
-        private LinkLabel linkLabel1;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private Button btnLogin;
+        private LinkLabel btnGeust;
+        private TextBox txtUserName;
+        private TextBox txtPassword;
     }
 }

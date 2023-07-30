@@ -26,5 +26,12 @@ namespace Cafe_Managment_System
         {
 
         }
+
+        private void btnGeust_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            DashBoard ds = new DashBoard("Guest");
+            ds.Show();
+            this.Hide();
+        }
     }
 }
