@@ -19,7 +19,13 @@ namespace Cafe_Managment_System
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            if (txtUserName.Text == "admin" && txtPassword.Text
+                 == "admin123#")
+            {
+                DashBoard ds = new DashBoard("Admin");
+                this.Hide();
+                ds.Show();
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
