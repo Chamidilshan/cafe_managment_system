@@ -21,3 +21,4 @@ D:\.Net Projects\cafe_managment_system\Cafe Managment System\Cafe Managment Syst
 D:\.Net Projects\cafe_managment_system\Cafe Managment System\Cafe Managment System\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Management.dll
 D:\.Net Projects\cafe_managment_system\Cafe Managment System\Cafe Managment System\obj\Debug\net6.0-windows\Cafe_Managment_System.DashBoard.resources
 D:\.Net Projects\cafe_managment_system\Cafe Managment System\Cafe Managment System\obj\Debug\net6.0-windows\Cafe Managment System.csproj.CopyComplete
+D:\.Net Projects\cafe_managment_system\Cafe Managment System\Cafe Managment System\obj\Debug\net6.0-windows\Cafe_Managment_System.AllUserControls.UC_Welcome.resources

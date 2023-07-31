@@ -21,6 +21,12 @@ namespace Cafe_Managment_System
                 btnRemoveItems.Hide();
                 btnUpdateItems.Hide();
             }
+            else if (user == "Admin")
+            {
+                btnAddItems.Show();
+                btnUpdateItems.Show();
+                btnRemoveItems.Show();
+            }
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
@@ -31,6 +37,18 @@ namespace Cafe_Managment_System
         private void guna2GradientCircleButton1_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btnLogOut_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Form1 fm = new Form1();
+            this.Hide();
+            fm.Show();
+        }
+
+        private void uC_Welcome1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
